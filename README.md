@@ -1,17 +1,68 @@
-# screens
+# Flutter UI Project – Login & Profile Card
 
-A new Flutter project.
+A Flutter project containing two clean UI screens:
+- Login Screen
+- Profile Card Screen
 
-## Getting Started
+Built using Flutter’s Material Design widgets with focus on layout structure, styling, and asset integration.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Modern Login UI design
+- Social-style Profile Card UI
+- Fully scrollable layouts
+- Clean widget hierarchy
+- Custom button styling
+- Asset-based images
+- Responsive spacing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Screens
+
+### Login Screen
+
+Includes:
+- App logo
+- Welcome text
+- Email input field
+- Password input field
+- Forgot password button
+- Login button
+- Google login button
+- Sign up text
+
+Widgets used:
+- `TextFormField`
+- `ElevatedButton`
+- `TextButton`
+- `SingleChildScrollView`
+- `InputDecoration`
+- `SafeArea`
+
+---
+
+### Profile Card Screen
+
+Includes:
+- Banner image header
+- Profile avatar overlay
+- Name and bio section
+- Stats (Posts, Likes, Followers, Following)
+- Action buttons (Follow, Message, Email)
+- About section
+
+Widgets used:
+- `Stack`
+- `Positioned`
+- `CircleAvatar`
+- `Row`
+- `Column`
+- `ClipRRect`
+- `ElevatedButton.icon`
+
+---
+
+## Project Structure
