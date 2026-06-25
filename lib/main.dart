@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:screens/screens/product_card.dart';
+import 'package:screens/screens/navbar.dart';
 
 
 void main(){
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProductCard(),
+      home: ScreenWithBottomBar(),
     );
   }
 }
