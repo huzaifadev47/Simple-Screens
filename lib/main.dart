@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:screens/screens/settings.dart';
+import 'package:screens/screens/product_card.dart';
+
 
 void main(){
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SettingsScreen(),
+      home: ProductCard(),
     );
   }
 }
