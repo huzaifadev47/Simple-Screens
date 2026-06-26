@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:screens/screens/practice.dart';
-
 class Calculator extends StatelessWidget {
   Calculator({super.key});
 
