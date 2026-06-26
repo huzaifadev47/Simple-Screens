@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:screens/screens/musicplayer.dart';
-import 'package:screens/screens/practice.dart';
 
 void main(){
   runApp(MyApp());
