@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:screens/screens/musicplayer.dart';
+import 'package:screens/screens/chatui.dart';
 
 void main(){
   runApp(MyApp());
@@ -12,7 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MusicPlayer(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: false,
+      ),
+      home: ChatApp(),
     );
   }
 }

@@ -139,6 +139,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.18.0"
+  neu_box:
+    dependency: "direct main"
+    description:
+      name: neu_box
+      sha256: c5616698112b58ba5da309f14f10bc5e0beb22b5273d315088df41b65c2085ca
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   path:
     dependency: transitive
     description:
