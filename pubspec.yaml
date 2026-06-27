@@ -26,13 +26,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/profile.jpg
-    - assets/images/banner.jpg
-    - assets/images/logo.png
-    - assets/images/download.png
-    - assets/images/nike.png
-    - assets/images/nikejordan.png
-    - assets/images/images.jpg
-    - assets/images/o1.png
-    - assets/images/o2.png
-    - assets/images/o3.png
+    - assets/images/
+
+ 
